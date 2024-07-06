@@ -4,8 +4,6 @@ import random
 from threading import Timer
 
 
-#Still have some bugs
-
 class App(tk.Tk):
     def __init__(self):
         self.win = super().__init__()
